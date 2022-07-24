@@ -1,0 +1,16 @@
+.page-footer {
+    background-color: var(--secondary-background);
+    color: var(--secondary-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.page-footer [href^="mailto"],
+.page-footer [href^="tel"] {
+    color: rgba(255, 255, 255, 0.6);
+}

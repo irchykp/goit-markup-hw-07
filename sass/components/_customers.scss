@@ -1,0 +1,32 @@
+.customers-title {
+    margin-bottom: 50px;
+    font-weight: var(--title-weight);
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+.customers-item {
+    width: 170px;
+    height: 92px;
+}
+
+.customers .link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: var(--icon-fill-primary);
+    transition: dorder 250ms var(--timing-function), color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        color: var(--accent-color);
+    }
+}
+
+.customers .icon-customers {
+    fill: currentColor;
+}

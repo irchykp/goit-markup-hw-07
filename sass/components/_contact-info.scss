@@ -1,0 +1,12 @@
+.contact-info__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.contact-info__link {
+    transition: color 250ms var(--timing-function);
+    color: var(--secondary-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}

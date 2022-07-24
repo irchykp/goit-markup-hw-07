@@ -1,0 +1,41 @@
+.examples {
+    padding-top: 0;
+}
+
+.examples .examples-item {
+    max-width: 370px;
+    display: block;
+    position: relative;
+}
+
+.examples .examples-item:not(:last-child) {
+    margin-right: var(--list-gap);
+}
+
+.examples-title {
+    margin-bottom: 50px;
+    font-weight: var(--title-weight);
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+.examples-thumb {
+    width: 100%;
+    position: absolute;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.examples-thumb-title {
+    font-weight: var(--title-weight);
+    font-size: inherit;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}

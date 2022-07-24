@@ -1,0 +1,33 @@
+.filter-box {
+    max-width: 611px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.filter {
+    display: flex;
+}
+
+.filter .filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.click {
+    padding: 6px 22px;
+    border: transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--title-color);
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-background);
+        color: var(--secondary-color);
+        box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+    }
+}

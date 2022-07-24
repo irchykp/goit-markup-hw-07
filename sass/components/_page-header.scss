@@ -1,0 +1,20 @@
+.page-header {
+    border-bottom: 1px solid #ececec;
+}
+
+.page-header__container {
+    display: flex;
+}
+
+.page-header__logo {
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
+.page-header__logo--accent {
+    color: var(--accent-color);
+}

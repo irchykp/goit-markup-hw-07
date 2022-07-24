@@ -1,0 +1,18 @@
+.address {
+    margin-right: 70px;
+}
+
+.address__logo {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.address__logo--accent {
+    color: var(--accent-color);
+}
+
+.address__info {
+    font-style: inherit;
+}
