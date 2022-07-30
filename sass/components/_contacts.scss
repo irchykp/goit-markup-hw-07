@@ -7,18 +7,17 @@
     margin-left: 50px;
 }
 
-.contacts__icon {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
 .contacts__link {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
     align-items: center;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     color: var(--primary-color);
     transition: color 250ms var(--timing-function);
+
     &:hover,
     &:focus {
         color: var(--accent-color);
@@ -40,4 +39,9 @@
     bottom: -1px;
     background-color: var(--accent-color);
     border-radius: 2px;
+}
+
+.contacts__icon {
+    margin-right: 10px;
+    fill: currentColor;
 }

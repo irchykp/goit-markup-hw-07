@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     max-width: 206px;
-    margin: 0 32px;
-    margin-bottom: 30px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social-networks__item {
@@ -34,16 +35,10 @@
     color: var(--icon-fill-primary);
     transition: background-color 250ms var(--timing-function);
     background-color: rgba(255, 255, 255, 0.1);
+
     &:hover,
     &:focus {
         color: var(--icon-fill-secondary);
         background-color: var(--accent-color);
     }
-}
-
-.social-networks {
-    display: flex;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }

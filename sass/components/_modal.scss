@@ -27,6 +27,7 @@
     background-color: var(--primary-background);
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+
     &:focus,
     &:hover {
         fill: var(--accent-color);
@@ -81,6 +82,7 @@
     border-radius: 4px;
     padding-left: 35px;
     cursor: pointer;
+
     &:focus {
         outline: none;
         border: 1px solid var(--accent-color);
@@ -125,6 +127,7 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
+
     &:focus {
         outline: none;
         border: 1px solid var(--accent-color);
@@ -174,6 +177,8 @@ textarea {
     align-items: center;
     margin-bottom: 30px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
+    justify-content: center;
     color: var(--primary-color);
 }
 
@@ -198,6 +203,7 @@ textarea {
     background-color: var(--accent-background);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: color 250ms var(--timing-function), backgroud-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
+
     &:hover,
     &:focus {
         color: var(--secondary-color);
